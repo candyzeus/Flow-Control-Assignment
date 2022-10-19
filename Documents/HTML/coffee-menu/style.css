@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------ start ------- */
+.container{
+    width: 500px;
+    background-color: #FEDD03;
+    padding: 25px 25px 0 25px;
+    font-family:'Times New Roman';
+    font-weight: bold;
+    color: #E9256B;
+}
+.category{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    border-bottom: 4px solid #6CE8DC;
+    line-height: 1.2;
+    padding-bottom: 5px;
+}
+h1,h2{
+    font-size: 20px;
+}
+.size{
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+}
+.M{
+    padding-right: 17px;
+}
+.content{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 12px;
+    margin-top: 8px;
+}
+h1,h5,p1{
+    font-weight: normal;
+}
+h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+h4{
+    font-size: 16px;
+}
+.item-HI{
+    font-size: 14px;
+    margin: 0 14PX;
+}
+.item-HI p{
+    padding: 17.5px 0;
+}
+.item-M,.item-L{
+    font-size: 19px;
+}
+.item-M p,.item-L p{
+    padding: 15px 0;
+}
+.item1,.item2,.item3,.item4,.item5{
+    padding: 8px 0;
+}
+.item6{
+    padding: 8px 0 25px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    padding: 20px 0;
+    background-color: #E92769;
+    line-height: 1.2;
+    margin:70px 0 auto;
+}
+.upgrades-title{
+    color: #FAC82B;
+    font-size: 16px;
+}
+.upgrades-items,.upgrades-money{
+    color: white;
+    font-size: 15px;
+}
+.upgrades-money{
+    text-align: right;
+}
